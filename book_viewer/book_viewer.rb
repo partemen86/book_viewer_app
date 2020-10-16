@@ -29,6 +29,7 @@ get "/search" do
   erb :search
 end
 
+# redirect
 not_found do
   redirect "/"
 end
